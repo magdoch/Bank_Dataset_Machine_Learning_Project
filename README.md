@@ -14,3 +14,13 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 For this task, I am using a dataset that was originally published on the [UCI Machine Learning Repository] website; however, since that site provides an inaccurate description of the data and contains many different subsets, I decided to use the dataset from Kaggle: https://www.kaggle.com/datasets/sahistapatel96/bankadditionalfullcsv.
 
+## 📊 Results
+
+We compare the performance of different machine learning models based on key evaluation metrics.
+
+| 🤖 Model            | 📈 Train ROC-AUC | 📉 Test ROC-AUC | 🔁 Train F1 | 🔁 Test F1 | 🎯 Train Recall | 🎯 Test Recall | 🎯 Train Precision | 🎯 Test Precision |
+|--------------------|------------------|-----------------|-------------|------------|----------------|----------------|-------------------|------------------|
+| Logistic Regression | 0.79             | 0.80            | 0.45        | 0.46       | 0.63           | 0.65           | 0.35              | 0.36             |
+| kNN                | 0.92             | 0.74            | 0.48        | 0.38       | 0.29           | 0.29           | 0.56              | 0.56             |
+| Decision Tree      | 0.83             | 0.77            | 0.51        | 0.48       | 0.73           | 0.61           | 0.38              | 0.40             |
+| XGBoost            | 0.84             | 0.81            | 0.43        | 0.38       | 0.64           | 0.27           | 0.36              | 0.67             |
