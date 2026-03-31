@@ -12,10 +12,9 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 For this task, I am using a dataset that was originally published on the [UCI Machine Learning Repository] website; however, since that site provides an inaccurate description of the data and contains many different subsets, I decided to use the dataset from Kaggle: https://www.kaggle.com/datasets/sahistapatel96/bankadditionalfullcsv.
 
-## 📊 Results
-
-A comparison of the performance of different machine learning models based on key evaluation metrics.
 ## 📊 Model Comparison
+A comparison of the performance of different machine learning models based on key evaluation metrics.
+
 
 | 🤖 Model                      | 📈 Train ROC-AUC | 📉 Test ROC-AUC | 🔁 Train F1 | 🔁 Test F1 | 🎯 Train Recall | 🎯 Test Recall | 🎯 Train Precision | 🎯 Test Precision | ⚠️ Overfitting |
 |-----------------------------|------------------|-----------------|-------------|------------|----------------|----------------|-------------------|------------------|----------------|
